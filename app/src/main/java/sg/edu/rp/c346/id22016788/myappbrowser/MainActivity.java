@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         buttonLoad = findViewById(R.id.buttonLoad);
+        webViewMyPage = findViewById(R.id.webViewMyPage);
         webViewMyPage.setWebViewClient(new WebViewClient());
 
         buttonLoad.setOnClickListener(new View.OnClickListener() {
